@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NODE_REDtest-Qabc
+  host: NODE-RED-QBDC433
+  disk_quota: 1024M
+  services:
+  - NOD-RED-cloudantNoSQLDB
+  - NODE_REDtest-Qabc-cloudantNoSQLDB
+  - Language Translator-d1
+  - Language Translator-bu
